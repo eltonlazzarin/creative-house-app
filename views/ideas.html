@@ -1,0 +1,30 @@
+{% extends "layout.html" %} {% set bodyId = "page-ideas" %} {% block title %}
+<title>Ideas - Creative House</title>
+{% endblock title %} {% block content %}
+
+<header>
+  <a href="/">
+    <img src="/img/logo.png" alt="Imagem da Logomarca" />
+  </a>
+  <nav>
+    <li><a href="/">Home</a></li>
+    <li><a href="#" class="button" onclick="onOff()">New Idea</a></li>
+  </nav>
+</header>
+<section id="title">
+  <p>on display</p>
+  <h1>Ideas</h1>
+</section>
+<main>
+  <section id="ideas">
+    {% include "listAll-Ideas.html" %}
+  </section>
+</main>
+<footer id="footer">
+  With ♥️
+  <a href="https://www.linkedin.com/in/eltonlazzarin/" target="_blank"
+    >Elton Lazzarin</a
+  >
+</footer>
+
+{% endblock %}
