@@ -1,4 +1,4 @@
-<h1 align="center"> 
+<h1 align="center">
   <img src="https://github.com/eltonlazzarin/creative-house-app/blob/master/public/img/logo.png" alt="Logo" />
   <br>
 </h1>
@@ -30,6 +30,7 @@
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
 
 ## :information_source: How To Use
